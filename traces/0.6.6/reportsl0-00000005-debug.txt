@@ -1,0 +1,99 @@
+2025-07-24T09:58:52+0800 debug Runtime : [Blockchain] H_t=5
+2025-07-24T09:58:52+0800 debug Accumulation : [Blockchain] available reports (1): [0xf2f89a5ff37d0a54a44aae51425829b6e9ebb05cd13e716ac71054d51b8a7231]
+2025-07-24T09:58:52+0800 debug Accumulation : [Blockchain] accumulatable reports: [0xf2f89a5ff37d0a54a44aae51425829b6e9ebb05cd13e716ac71054d51b8a7231]
+2025-07-24T09:58:52+0800 debug Accumulation : [Blockchain] [outer] can accumulate until index: 1
+2025-07-24T09:58:52+0800 debug Accumulation : [Blockchain] [parallel] services to accumulate: [0]
+2025-07-24T09:58:52+0800 debug Accumulation : [Blockchain] [single] accumulate arguments: [Blockchain.OperandTuple(packageHash: 0xf2f89a5ff37d0a54a44aae51425829b6e9ebb05cd13e716ac71054d51b8a7231, segmentRoot: 0x0000000000000000000000000000000000000000000000000000000000000000, authorizerHash: 0x2f0e0b0cce53c35439dfe73087b1439c846b5ff0b18ec0052eafdaf546d1977b, payloadHash: 0x82066d5f26927d8e664862700d6328e790a5c696e7daf87f13ad074201fa6873, _gasLimit: Codec.CodingAs<Codec.Compact<Utils.SaturatingNumber<Swift.UInt64>>>(wrappedValue: 10000000), workResult: Blockchain.WorkResult(result: Swift.Result<Foundation.Data, Blockchain.WorkResultError>.success(228 bytes)), authorizerTrace: 7 bytes)]
+2025-07-24T09:58:52+0800 debug accumulate : [Blockchain] accumulating service index: 0
+2025-07-24T09:58:52+0800 debug CodeAndMeta : [Blockchain] Program Metadata: jam-bootstrap-service v0.1.23 (Apache-2.0) by Parity Technologies <admin@parity.io>
+2025-07-24T09:58:52+0800 debug HostCall  : [Blockchain] ===== host call: Fetch =====
+2025-07-24T09:58:52+0800 debug HostCall  : [Blockchain] consumed 10 gas, 9999948 left
+2025-07-24T09:58:52+0800 debug HostCalls : [Blockchain] reg10: 0, reg11: 0, reg12: 0
+2025-07-24T09:58:52+0800 debug HostCalls : [Blockchain] writeAddr: 1, first: 0, len: 0
+2025-07-24T09:58:52+0800 debug HostCalls : [Blockchain] isWritable: true, value: 0x0a00000000000000...000c00000a000000 (134 bytes)
+2025-07-24T09:58:52+0800 debug HostCall  : [Blockchain] ===== host call: Fetch =====
+2025-07-24T09:58:52+0800 debug HostCall  : [Blockchain] consumed 10 gas, 9999582 left
+2025-07-24T09:58:52+0800 debug HostCalls : [Blockchain] reg10: 0, reg11: 0, reg12: 0
+2025-07-24T09:58:52+0800 debug HostCalls : [Blockchain] writeAddr: 206752, first: 0, len: 134
+2025-07-24T09:58:52+0800 debug HostCalls : [Blockchain] isWritable: true, value: 0x0a00000000000000...000c00000a000000 (134 bytes)
+2025-07-24T09:58:52+0800 debug HostCall  : [Blockchain] ===== host call: Info =====
+2025-07-24T09:58:52+0800 debug HostCall  : [Blockchain] consumed 10 gas, 9998806 left
+2025-07-24T09:58:52+0800 debug HostCalls : [Blockchain] m: 50 bytes, isWritable: true
+2025-07-24T09:58:52+0800 debug HostCall  : [Blockchain] ===== host call: Log =====
+2025-07-24T09:58:52+0800 debug HostCall  : [Blockchain] consumed 0 gas, 9996924 left
+2025-07-24T09:58:52+0800 info HostCalls : [Blockchain] 2025/07/24 09:58:52 INFO#0 boot Bootstrap Service Accumulate, 0h @5 $18446744073709551615
+2025-07-24T09:58:52+0800 debug HostCall  : [Blockchain] ===== host call: Fetch =====
+2025-07-24T09:58:52+0800 debug HostCall  : [Blockchain] consumed 10 gas, 9996744 left
+2025-07-24T09:58:52+0800 debug HostCalls : [Blockchain] reg10: 14, reg11: 0, reg12: 0
+2025-07-24T09:58:52+0800 debug HostCalls : [Blockchain] writeAddr: 1, first: 0, len: 0
+2025-07-24T09:58:52+0800 debug HostCalls : [Blockchain] isWritable: true, value: 0x01f2f89a5ff37d0a...07417574683d3c3e (372 bytes)
+2025-07-24T09:58:52+0800 debug HostCall  : [Blockchain] ===== host call: Fetch =====
+2025-07-24T09:58:52+0800 debug HostCall  : [Blockchain] consumed 10 gas, 9996357 left
+2025-07-24T09:58:52+0800 debug HostCalls : [Blockchain] reg10: 14, reg11: 0, reg12: 0
+2025-07-24T09:58:52+0800 debug HostCalls : [Blockchain] writeAddr: 206752, first: 0, len: 372
+2025-07-24T09:58:52+0800 debug HostCalls : [Blockchain] isWritable: true, value: 0x01f2f89a5ff37d0a...07417574683d3c3e (372 bytes)
+2025-07-24T09:58:53+0800 debug HostCall  : [Blockchain] ===== host call: Log =====
+2025-07-24T09:58:53+0800 debug HostCall  : [Blockchain] consumed 0 gas, 9929068 left
+2025-07-24T09:58:53+0800 debug HostCalls : [Blockchain] 2025/07/24 09:58:53 DEBUG#0 boot Decoded instruction: RandomStorageAccumulate(Ok(Output { items: [Item { key: [124, 236, 82, 70, 7, 22, 173, 19, 197, 98, 224, 23, 33, 249, 11, 29, 253, 146, 67, 103, 178, 104, 220, 230, 42, 9, 60, 100, 14, 202, 28, 83] }, Item { key: [140, 67, 17, 110, 91, 126, 84, 219, 48, 53, 122, 121, 80, 155, 147, 62, 112, 221, 54, 69, 60, 35, 146, 27, 46, 82, 232, 28, 59, 223, 90, 139] }, Item { key: [19, 113, 125, 88, 124, 58, 21, 110, 251, 104, 146, 178, 44, 50, 239, 230, 86, 144, 50, 20, 59, 248, 69, 103, 68, 115, 70, 114, 216, 77, 241, 95] }, Item { key: [213, 165, 94, 56, 134, 171, 213, 68, 185, 194, 11, 37, 156, 16, 57, 72, 33, 181, 119, 236, 209, 201, 23, 179, 35, 245, 145, 110, 27, 4, 179, 56] }, Item { key: [82, 81, 252, 99, 214, 173, 26, 12, 213, 213, 39, 52, 192, 43, 167, 15, 49, 125, 252, 178, 214, 54, 20, 193, 40, 53, 208, 122, 168, 241, 95, 64] }, Item { key: [11, 83, 238, 201, 0, 57, 41, 0, 150, 250, 8, 242, 178, 159, 121, 232, 122, 37, 100, 42, 241, 229, 117, 74, 123, 68, 241, 153, 252, 113, 178, 199] }, Item { key: [101, 186, 163, 4, 25, 181, 111, 199, 58, 230, 69, 69, 41, 223, 235, 48, 56, 175, 138, 197, 206, 42, 87, 48, 93, 133, 219, 77, 191, 4, 155, 148] }] }))
+2025-07-24T09:58:53+0800 debug HostCall  : [Blockchain] ===== host call: Read =====
+2025-07-24T09:58:53+0800 debug HostCall  : [Blockchain] consumed 10 gas, 9928833 left
+2025-07-24T09:58:53+0800 debug HostCalls : [Blockchain] service: 0
+2025-07-24T09:58:53+0800 debug HostCalls : [Blockchain] key: 2109eb7c5b05bbfb96dbc5f4898f506e8e4fbe3457c497ccbba311631dfc6a03
+2025-07-24T09:58:53+0800 debug HostCall  : [Blockchain] ===== host call: Write =====
+2025-07-24T09:58:53+0800 debug HostCall  : [Blockchain] consumed 10 gas, 9928698 left
+2025-07-24T09:58:53+0800 debug HostCalls : [Blockchain] regs: [4278057392, 32, 4278057392, 32], service: 0
+2025-07-24T09:58:53+0800 debug HostCalls : [Blockchain] key: 0xd8838102a37e4a6598b497829c88915657105e74fd6147338478e2b5f459d891
+2025-07-24T09:58:53+0800 debug HostCalls : [Blockchain] l: 18446744073709551615, is none: true
+2025-07-24T09:58:53+0800 debug HostCalls : [Blockchain] writing key: 0xd8838102a37e4a6598b497829c88915657105e74fd6147338478e2b5f459d891, val: 0x7cec52460716ad13c562e01721f90b1dfd924367b268dce62a093c640eca1c53, len: 32
+2025-07-24T09:58:53+0800 debug HostCall  : [Blockchain] ===== host call: Write =====
+2025-07-24T09:58:53+0800 debug HostCall  : [Blockchain] consumed 10 gas, 9928572 left
+2025-07-24T09:58:53+0800 debug HostCalls : [Blockchain] regs: [4278057392, 32, 4278057392, 32], service: 0
+2025-07-24T09:58:53+0800 debug HostCalls : [Blockchain] key: 0x43bacaf626cdcadd9d1c73dbfe3a9b1ede2b7ea752d04264636f5a065c31832d
+2025-07-24T09:58:53+0800 debug HostCalls : [Blockchain] l: 18446744073709551615, is none: true
+2025-07-24T09:58:53+0800 debug HostCalls : [Blockchain] writing key: 0x43bacaf626cdcadd9d1c73dbfe3a9b1ede2b7ea752d04264636f5a065c31832d, val: 0x8c43116e5b7e54db30357a79509b933e70dd36453c23921b2e52e81c3bdf5a8b, len: 32
+2025-07-24T09:58:53+0800 debug HostCall  : [Blockchain] ===== host call: Write =====
+2025-07-24T09:58:53+0800 debug HostCall  : [Blockchain] consumed 10 gas, 9928446 left
+2025-07-24T09:58:53+0800 debug HostCalls : [Blockchain] regs: [4278057392, 32, 4278057392, 32], service: 0
+2025-07-24T09:58:53+0800 debug HostCalls : [Blockchain] key: 0x2c8ea9585fd170a4be7405a0967ee61ad25e5c6fab55a94bf6e3c7b3be0f5d47
+2025-07-24T09:58:53+0800 debug HostCalls : [Blockchain] l: 18446744073709551615, is none: true
+2025-07-24T09:58:53+0800 debug HostCalls : [Blockchain] writing key: 0x2c8ea9585fd170a4be7405a0967ee61ad25e5c6fab55a94bf6e3c7b3be0f5d47, val: 0x13717d587c3a156efb6892b22c32efe6569032143bf8456744734672d84df15f, len: 32
+2025-07-24T09:58:53+0800 debug HostCall  : [Blockchain] ===== host call: Write =====
+2025-07-24T09:58:53+0800 debug HostCall  : [Blockchain] consumed 10 gas, 9928320 left
+2025-07-24T09:58:53+0800 debug HostCalls : [Blockchain] regs: [4278057392, 32, 4278057392, 32], service: 0
+2025-07-24T09:58:53+0800 debug HostCalls : [Blockchain] key: 0x5b7e41d1a75dbee402b241659367231e09eb2a14761a1c5bf096eb0440297cb0
+2025-07-24T09:58:53+0800 debug HostCalls : [Blockchain] l: 18446744073709551615, is none: true
+2025-07-24T09:58:53+0800 debug HostCalls : [Blockchain] writing key: 0x5b7e41d1a75dbee402b241659367231e09eb2a14761a1c5bf096eb0440297cb0, val: 0xd5a55e3886abd544b9c20b259c10394821b577ecd1c917b323f5916e1b04b338, len: 32
+2025-07-24T09:58:53+0800 debug HostCall  : [Blockchain] ===== host call: Write =====
+2025-07-24T09:58:53+0800 debug HostCall  : [Blockchain] consumed 10 gas, 9928194 left
+2025-07-24T09:58:53+0800 debug HostCalls : [Blockchain] regs: [4278057392, 32, 4278057392, 32], service: 0
+2025-07-24T09:58:53+0800 debug HostCalls : [Blockchain] key: 0x69d6f38a4dda314f8193a3d5e9f41f68a3ec49f5a521b8dba46cbdf69fbc3eb4
+2025-07-24T09:58:53+0800 debug HostCalls : [Blockchain] l: 18446744073709551615, is none: true
+2025-07-24T09:58:53+0800 debug HostCalls : [Blockchain] writing key: 0x69d6f38a4dda314f8193a3d5e9f41f68a3ec49f5a521b8dba46cbdf69fbc3eb4, val: 0x5251fc63d6ad1a0cd5d52734c02ba70f317dfcb2d63614c12835d07aa8f15f40, len: 32
+2025-07-24T09:58:53+0800 debug HostCall  : [Blockchain] ===== host call: Write =====
+2025-07-24T09:58:53+0800 debug HostCall  : [Blockchain] consumed 10 gas, 9928068 left
+2025-07-24T09:58:53+0800 debug HostCalls : [Blockchain] regs: [4278057392, 32, 4278057392, 32], service: 0
+2025-07-24T09:58:53+0800 debug HostCalls : [Blockchain] key: 0x6817aa75ea46c2512d2d1dc0ca2b4ee158f0ede599f353eb168e7d2ea120c369
+2025-07-24T09:58:53+0800 debug HostCalls : [Blockchain] l: 18446744073709551615, is none: true
+2025-07-24T09:58:53+0800 debug HostCalls : [Blockchain] writing key: 0x6817aa75ea46c2512d2d1dc0ca2b4ee158f0ede599f353eb168e7d2ea120c369, val: 0x0b53eec90039290096fa08f2b29f79e87a25642af1e5754a7b44f199fc71b2c7, len: 32
+2025-07-24T09:58:53+0800 debug HostCall  : [Blockchain] ===== host call: Write =====
+2025-07-24T09:58:53+0800 debug HostCall  : [Blockchain] consumed 10 gas, 9927942 left
+2025-07-24T09:58:53+0800 debug HostCalls : [Blockchain] regs: [4278057392, 32, 4278057392, 32], service: 0
+2025-07-24T09:58:53+0800 debug HostCalls : [Blockchain] key: 0xeadc80c9230c15c9583b31843f94de3a6ad199cc8005cc1981f0a5d8c6642a26
+2025-07-24T09:58:53+0800 debug HostCalls : [Blockchain] l: 18446744073709551615, is none: true
+2025-07-24T09:58:53+0800 debug HostCalls : [Blockchain] writing key: 0xeadc80c9230c15c9583b31843f94de3a6ad199cc8005cc1981f0a5d8c6642a26, val: 0x65baa30419b56fc73ae6454529dfeb3038af8ac5ce2a57305d85db4dbf049b94, len: 32
+2025-07-24T09:58:53+0800 debug HostCall  : [Blockchain] ===== host call: Write =====
+2025-07-24T09:58:53+0800 debug HostCall  : [Blockchain] consumed 10 gas, 9927591 left
+2025-07-24T09:58:53+0800 debug HostCalls : [Blockchain] regs: [68597, 20, 207008, 8], service: 0
+2025-07-24T09:58:53+0800 debug HostCalls : [Blockchain] key: 0x2109eb7c5b05bbfb96dbc5f4898f506e8e4fbe3457c497ccbba311631dfc6a03
+2025-07-24T09:58:53+0800 debug HostCalls : [Blockchain] l: 18446744073709551615, is none: true
+2025-07-24T09:58:53+0800 debug HostCalls : [Blockchain] writing key: 0x2109eb7c5b05bbfb96dbc5f4898f506e8e4fbe3457c497ccbba311631dfc6a03, val: 0x0700000000000000, len: 8
+2025-07-24T09:58:53+0800 debug accumulate : [Blockchain] accumulate exit reason: halt
+2025-07-24T09:58:53+0800 debug accumulate : [Blockchain] accumulate output: 0x
+2025-07-24T09:58:53+0800 debug Accumulation : [Blockchain] [single] accumulate result: gasUsed=73054, commitment=nil
+2025-07-24T09:58:53+0800 debug Accumulation : [Blockchain] accumulation commitments sorted: []
+2025-07-24T09:58:53+0800 debug Accumulation : [Blockchain] accumulation commitments encoded: []
+2025-07-24T09:58:53+0800 debug Accumulation : [Blockchain] accumulation root: 0x0000000000000000000000000000000000000000000000000000000000000000
+2025-07-24T09:58:53+0800 debug RecentHistory : [Blockchain] recent history new item mmr: MMR(peaks: [Optional(0x0000000000000000000000000000000000000000000000000000000000000000), nil, Optional(0xb4c11951957c6f8f642c4af61cd6b24640fec6dc7fc607ee8206a99e92410d30)])
+✔ Test reportsl0Tests(_:) passed after 0.947 seconds.
+✔ Suite PolkajamTests passed after 0.948 seconds.
+✔ Test run with 1 test passed after 0.948 seconds.
